@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Black">#ff000000</color>
+    <color name="White">#ffffffff</color>
+    <color name="Red">#ffff0000</color>
+    <color name="LightBlue">#ff0000ff</color>
+    <color name="DarkBlue">#ff000099</color>
+    <color name="GrassGreen">#ff408080</color>
+    <color name="Blue">#ff0000ff</color>
+    <color name="Yellow0">#ffffff00</color>
+    <color name="Yellow1">#ffffff33</color>
+    <color name="Yellow2">#ffffff66</color>
+    <color name="Yellow3">#ffffff99</color>
+    <color name="Green">#ff5ffb17</color>
+    <color name="SkyBlue">#ff82caff</color>
+    <color name="EditTextBackground">#ffffffcc</color>
+    <color name="AppBackground">#ffffff99</color>
+    <color name="YellowGreen">#ff52d017</color>
+    <color name="DarkGray">#ff666362</color>
+    <color name="LightGray">#ffc0c0c0</color>
+</resources>

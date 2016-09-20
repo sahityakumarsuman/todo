@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AppBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Black"
+        android:text="@string/app_name"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:id="@id/todo_llayout_hdr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@id/view1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:background="@color/Black" />
+
+        <View
+            android:id="@id/view1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/AppBackground" />
+
+        <View
+            android:id="@id/view1"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/Black" />
+
+        <LinearLayout
+            android:id="@id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="1.0"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/tvsearchpromptdisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/searchresults"
+                android:textColor="@color/Black" />
+
+            <TextView
+                android:id="@id/tvsearchtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:textColor="@color/Black" />
+        </LinearLayout>
+
+        <Button
+            android:id="@id/search_tasks"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.0"
+            android:background="@drawable/search"
+            android:paddingLeft="2dp"
+            android:paddingRight="1dp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <View
+        android:id="@id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <View
+        android:id="@id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/AppBackground" />
+
+    <View
+        android:id="@id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+
+    <ListView
+        android:id="@id/lvSearchResults"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <View
+        android:id="@id/c_row_h_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Black" />
+</LinearLayout>

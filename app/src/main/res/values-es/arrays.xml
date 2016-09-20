@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dateformat">
+        <item>mm/dd/yyyy</item>
+        <item>dd/mm/yyyy</item>
+        <item>yyyy/mm/dd</item>
+    </string-array>
+    <string-array name="dateformatValues">
+        <item>M</item>
+        <item>D</item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="dateseparator">
+        <item>-</item>
+        <item>.</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="dateseparatorValues">
+        <item>-</item>
+        <item>.</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="timeformat">
+        <item>12 horas AM / PM formato</item>
+        <item>Militar 24 horas formato</item>
+    </string-array>
+    <string-array name="timeformatValues">
+        <item>S</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="priorityarray">
+        <item>Menos</item>
+        <item>Intermedio</item>
+        <item>Importante</item>
+    </string-array>
+    <string-array name="sortoptions">
+        <item>Ordenar por Título</item>
+        <item>Ordenar por Fecha de completar</item>
+        <item>Ordenar por Fecha de Inicio</item>
+        <item>Ordenar por Prioridad</item>
+    </string-array>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dateformat">
+        <item>mm/dd/yyyy</item>
+        <item>dd/mm/yyyy</item>
+        <item>yyyy/mm/dd</item>
+    </string-array>
+    <string-array name="dateformatValues">
+        <item>M</item>
+        <item>D</item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="dateseparator">
+        <item>-</item>
+        <item>.</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="dateseparatorValues">
+        <item>-</item>
+        <item>.</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="timeformat">
+        <item>12 uur AM / PM formaat</item>
+        <item>24 uur Militaire format</item>
+    </string-array>
+    <string-array name="timeformatValues">
+        <item>S</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="priorityarray">
+        <item>Laag</item>
+        <item>Gemiddeld</item>
+        <item>Hoog</item>
+    </string-array>
+    <string-array name="sortoptions">
+        <item>Sorteren op Titel</item>
+        <item>Sorteren op Opleverdatum</item>
+        <item>Sorteren op Startdatum</item>
+        <item>Sorteren op Prioriteit</item>
+    </string-array>
+</resources>

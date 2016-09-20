@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/datetimepref" android:key="date_time_pref">
+        <ListPreference android:entries="@array/dateformat" android:title="@string/dateformat" android:key="dateformat" android:summary="@string/dateformatsummary" android:defaultValue="M" android:entryValues="@array/dateformatValues" />
+        <ListPreference android:entries="@array/dateseparator" android:title="@string/dateseparator" android:key="dateseparator" android:summary="@string/dateseparatorsummary" android:defaultValue="/" android:entryValues="@array/dateseparatorValues" />
+        <ListPreference android:entries="@array/timeformat" android:title="@string/timeformat" android:key="timeformat" android:summary="@string/timeformatsummary" android:defaultValue="M" android:entryValues="@array/timeformatValues" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/reminders" android:key="reminders">
+        <CheckBoxPreference android:title="@string/enablereminder" android:key="enablereminder" android:summary="@string/enableremindersummary" android:defaultValue="true" />
+        <RingtonePreference android:title="@string/reminderalarm" android:selectable="true" android:key="reminderalarm" android:summary="@string/reminderalarmsummary" android:dependency="enablereminder" android:ringtoneType="alarm" android:showDefault="true" android:showSilent="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/displayoptions" android:key="displayoptions">
+        <CheckBoxPreference android:title="@string/displaycompletedtasks" android:key="displaycompletedtasks" android:summary="@string/displaycompletedtaskssummary" android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

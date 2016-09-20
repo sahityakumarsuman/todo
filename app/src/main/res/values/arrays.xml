@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dateformat">
+        <item>mm/dd/yyyy</item>
+        <item>dd/mm/yyyy</item>
+        <item>yyyy/mm/dd</item>
+    </string-array>
+    <string-array name="dateformatValues">
+        <item>M</item>
+        <item>D</item>
+        <item>Y</item>
+    </string-array>
+    <string-array name="dateseparator">
+        <item>- Dash</item>
+        <item>. Period</item>
+        <item>/ Slash</item>
+    </string-array>
+    <string-array name="dateseparatorValues">
+        <item>-</item>
+        <item>.</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="timeformat">
+        <item>12 hour AM/PM Format</item>
+        <item>24 hour Military Format</item>
+    </string-array>
+    <string-array name="timeformatValues">
+        <item>S</item>
+        <item>M</item>
+    </string-array>
+    <string-array name="priorityarray">
+        <item>Low</item>
+        <item>Medium</item>ta
+    </string-array>
+    <string-array name="sortoptions">
+        <item>Sort by Title</item>
+        <item>Sort by Due Date</item>
+        <item>Sort by Start Date</item>
+        <item>Sort by Priority</item>
+    </string-array>
+
+
+    <string-array name="tags_suggestion">
+        <item>Home</item>
+        <item>School</item>
+        <item>Office</item>
+        <item>Betting</item>
+        <item>Tag</item>
+        <item>MOM</item>
+        <item>Dad</item>
+        <item>sis</item>
+        <item>Humanity</item>
+        <item>Batman</item>
+        <item>Superman</item>
+        <item>Wonder woman</item>
+        <item>I am batman</item>
+        <item>Thanos</item>
+        <item>HULK</item>
+        <item>Transformer</item>
+        <item>There</item>
+        <item>Tom Cruise</item>
+        <item>Brad pit</item>
+        <item>Laptop</item>
+        <item>Apple</item>
+        <item>Caprio</item>
+        <item>Bluegape</item>
+        <item>Darwin Labs</item>
+        <item>Jasmine</item>
+        <item>Parker</item>
+        <item>Will do it</item>
+        <item>I am here</item>
+        <item>Well done</item>
+        <item>Marry jane</item>
+        <item>Uncle Ben</item>
+        <item>Lieam Nenson</item>
+        <item>Thor</item>
+        <item>Brue Banner</item>
+        <item>Brue Waye</item>
+        <item>Gangadhar</item>
+        <item>Shaktimaan</item>
+        <item>See you soon</item>
+    </string-array>
+
+</resources>
